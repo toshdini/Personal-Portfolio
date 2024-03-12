@@ -1,0 +1,13 @@
+{
+    "root": true, // use this configuration as the root configuration
+    "extends": "next", // use next.js configuration
+    "rules": { // custom rules
+        "non-used-vars": [
+            "error", // show error for unused variables
+            {
+                "argsIgnorePattern": "^_", // ignore unused arguments that start with _
+                "varsIgnorePattern": "^_" // ignore unused variables that start with _
+            }
+        ]
+    }
+}
