@@ -1,6 +1,5 @@
 import {
   mobile,
-  devops,
   backend,
   creator,
   web,
@@ -24,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  devops,
 } from "../assets";
 
 export const navLinks = [
@@ -41,7 +41,7 @@ export const navLinks = [
   },
 ];
 
-const services = [
+export const services = [
   {
     title: "Frontend Developer",
     icon: web,
@@ -60,7 +60,7 @@ const services = [
   },
 ];
 
-const technologies = [
+export const technologies = [
   {
     name: "HTML 5",
     icon: html,
@@ -115,7 +115,7 @@ const technologies = [
   },
 ];
 
-const experiences = [
+export const experiences = [
   {
     title: "React.js Developer",
     company_name: "Starbucks",
@@ -170,7 +170,7 @@ const experiences = [
   },
 ];
 
-const testimonials = [
+export const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
@@ -197,7 +197,7 @@ const testimonials = [
   },
 ];
 
-const projects = [
+export const projects = [
   {
     name: "Car Rent",
     description:
@@ -262,5 +262,3 @@ const projects = [
     source_code_link: "https://github.com/",
   },
 ];
-
-export { services, technologies, experiences, testimonials, projects };
